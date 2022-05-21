@@ -12,6 +12,10 @@
   --aa-primary-color-rgb: var(--ifm-color-primary) !important;
 }
 
+html[data-theme='light'] .footer--dark {
+  background-color: rgb(0, 0, 0, 0.9);;
+}
+
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;

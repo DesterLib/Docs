@@ -1,7 +1,8 @@
 {
-  "name": "dester",
-  "version": "0.0.0",
-  "private": true,
+  "name": "dester-docs",
+  "version": "1.0.0",
+  "description": "DesterLib's docs",
+  "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -28,6 +29,18 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.20"
   },
+  "contributors": [
+    {
+      "name": "Alken D",
+      "email": "desteralken@gmail.com",
+      "url": "https://github.com/AlkenD"
+    },
+    {
+      "name": "Elias Benbourenane",
+      "email": "me@elias.eu.org",
+      "url": "https://elias.eu.org"
+    }
+  ],
   "browserslist": {
     "production": [
       ">0.5%",

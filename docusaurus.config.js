@@ -29,8 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/DesterLib/Docs/tree/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -50,8 +49,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: "dark",
-        disableSwitch: false,
+        defaultMode: "light",
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       navbar: {
@@ -99,6 +98,11 @@ const config = {
                 label: "Telegram",
                 href: "https://t.me/DesterLib",
               },
+            ],
+          },
+          {
+            title: "Source",
+            items: [
               {
                 label: "GitHub",
                 href: "https://github.com/DesterLib",
