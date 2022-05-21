@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Dester",
   tagline:
-    "A lightweight and powerfull media organizer to view your movie or serie library in a goddamn gorgieous way",
+    "A powerful and lightweight media solution to interface your movie and TV libraries in a goddamn gorgeous way",
   url: "https://dester.ga",
   baseUrl: "/",
   onBrokenLinks: "throw",
