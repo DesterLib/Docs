@@ -13,8 +13,9 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'DesterLib',
+  projectName: 'Docs',
+  deploymentBranch: 'gh-pages',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
