@@ -43,6 +43,11 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: "doc",
+      label: "The Team",
+      id: "team",
+    },
   ],
 };
 
