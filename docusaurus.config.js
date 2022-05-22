@@ -75,7 +75,7 @@ const config = {
             type: "html",
             position: "right",
             value:
-              '<a class="navbar-icon" target="_blank" href="https://github.com/DesterLib"><i class="ri-telegram-fill"></i></a>',
+              '<a class="navbar-icon" target="_blank" href="https://t.me/DesterLib"><i class="ri-telegram-fill"></i></a>',
           },
         ],
       },
