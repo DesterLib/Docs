@@ -14,7 +14,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "DesterLib",
+  organizationName: "Dester",
   projectName: "Docs",
   deploymentBranch: "gh-pages",
   i18n: {

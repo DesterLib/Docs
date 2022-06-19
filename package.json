@@ -1,7 +1,7 @@
 {
   "name": "dester-docs",
   "version": "1.0.0",
-  "description": "DesterLib's docs",
+  "description": "Dester's docs",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",

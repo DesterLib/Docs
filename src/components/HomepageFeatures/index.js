@@ -30,7 +30,7 @@ const FeatureList = [
     Svg: require("@site/static/img/home/api.svg").default,
     description: (
       <>
-        DesterLib combines the power of TMDB and Anilist to facilitate its
+        Dester combines the power of TMDB and Anilist to facilitate its
         operations, providing users with the most feature-packed experience.
       </>
     ),
