@@ -110,7 +110,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Dester. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dester.`,
       },
       prism: {
         theme: lightCodeTheme,

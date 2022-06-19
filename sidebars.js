@@ -12,18 +12,18 @@ const sidebars = {
       items: [
         {
           type: "doc",
+          label: "Prerequisite Setup",
+          id: "getting-started/prerequisite-setup",
+        },
+        {
+          type: "doc",
           label: "Local Deployement",
           id: "getting-started/local-deployement",
         },
         {
           type: "doc",
           label: "Heroku Deployement",
-          id: "getting-started/deployement-on-heroku",
-        },
-        {
-          type: "doc",
-          label: "Dester Config",
-          id: "getting-started/deployement-on-heroku",
+          id: "getting-started/heroku-deployment",
         },
       ],
     },
@@ -45,8 +45,13 @@ const sidebars = {
     },
     {
       type: "doc",
+      label: "Screenshots",
+      id: "screenshots",
+    },
+    {
+      type: "doc",
       label: "The Team",
-      id: "team",
+      id: "the-team",
     },
   ],
 };
