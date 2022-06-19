@@ -8,9 +8,9 @@ const FeatureList = [
     Svg: require("@site/static/img/home/deploy.svg").default,
     description: (
       <>
-        Dester makes deploying easy with its intuitive config generator. Head to{" "}
-        <a href="#">Dester's config generator</a> and have your Dester instance
-        ready in minutes!
+        Dester makes deploying easy with its intuitive setup UI. Just deploy
+        Dester and let it guide you through the intricacies of the setup
+        process!
       </>
     ),
   },
@@ -21,7 +21,7 @@ const FeatureList = [
       <>
         Dester uses React.js to deliver a colorful, user-friendly interface
         jamp-packed with features. Head to the{" "}
-        <a href="#">screenshots section</a> to have a preview!
+        <a href="/docs/screenshots">screenshots section</a> to have a preview!
       </>
     ),
   },
@@ -30,7 +30,7 @@ const FeatureList = [
     Svg: require("@site/static/img/home/api.svg").default,
     description: (
       <>
-        Dester combines the power of TMDB and Anilist to facilitate its
+        Dester combines the power of TMDB and Rclone to facilitate its
         operations, providing users with the most feature-packed experience.
       </>
     ),
