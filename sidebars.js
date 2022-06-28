@@ -25,6 +25,11 @@ const sidebars = {
           label: "Heroku Deployement",
           id: "getting-started/heroku-deployment",
         },
+        {
+          type: "doc",
+          label: "Desktop Application",
+          id: "getting-started/desktop-application",
+        },
       ],
     },
     {
