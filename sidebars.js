@@ -34,6 +34,27 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Building",
+      items: [
+        {
+          type: "doc",
+          label: "Backend",
+          id: "building/backend",
+        },
+        {
+          type: "doc",
+          label: "Frontend",
+          id: "building/frontend",
+        },
+        {
+          type: "doc",
+          label: "Desktop",
+          id: "building/desktop",
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Additional Info",
       items: [
         {
