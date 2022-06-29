@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- [NodeJS 16](https://nodejs.org/en/download/)
+-   [NodeJS 16](https://nodejs.org/en/download/)
 
 ## Build Guide
 

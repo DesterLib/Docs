@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-- [Python3](https://python.org/downloads/)
-- [Rclone](https://rclone.org/downloads/)
+-   [Python3](https://python.org/downloads/)
+-   [Rclone](https://rclone.org/downloads/)
 
 ## Build Guide
 
