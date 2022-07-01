@@ -6,7 +6,9 @@
 
 ## Storage Providers
 
-Dester supports Google Drive, OneDrive, and SharePoint as storage provider. Using them will require extra setup steps as outlined in their respective sections below.
+Dester supports [Google Drive](#google-drive), [OneDrive](#onedrive), and [SharePoint](#sharepoint) as storage provider. Using them will require extra setup steps as outlined in their respective sections below.
+
+You can ignore uneeded storage providers and only setup the storage providers you will use.
 
 Dester also supports local storage, which requires no additional setup.
 
@@ -27,5 +29,16 @@ Dester also supports local storage, which requires no additional setup.
 13. Done!
 
 ### OneDrive
+
+1. Create a [Microsoft Azure](https://portal.azure.com/) account
+2. In the Azure Portal search bar, find `Azure Active Directory` and click on it
+3. In the sidebar, find `App Registrations` and click on it
+4. Press the `New Application` button
+5. Under `Supported account types` select the 3rd option (Accounts in any organizational directory and personal Microsoft accounts)
+6. Under `Redirect URI` set the platform to `Single Page Application (SPA)`
+7. Input your Dester deployment's domain with `/callback` after it. For example, `https://dester.gq/callback`
+8. Press the `Register` Button
+9. You will be redirected to a new page. Note down the `Application (client) ID` for later
+10. Done!
 
 ### SharePoint
