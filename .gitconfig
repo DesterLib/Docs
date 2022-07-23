@@ -1,0 +1,7 @@
+[user]
+        name = Alken Dester
+        email = desteralken@gmail.com
+[gpg]
+        program = gpg2
+[commit]
+        gpgsign = true
