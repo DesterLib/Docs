@@ -7,21 +7,11 @@ on:
   workflow_dispatch:
 jobs:
   deploy:
-    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-python@v2
         with:
-          node-version: 16.x
-      - name: Install dependencies
-        run: npm install
-      - name: Build website
-        run: npm run build
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          python-version: 3.x
+      - run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-literate-nav mkdocs-minify-plugin mkdocs-git-authors-plugin
+      - run: mkdocs gh-deploy --force
