@@ -1,3 +1,0 @@
-# Desktop Application
-
-## Coming Soon
