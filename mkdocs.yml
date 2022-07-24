@@ -57,10 +57,27 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true 
 
+# nav:
+#   - Home: index.md
+#   - Getting started:
+
 nav:
-  - Home: index.md
-  - Getting started:
+  - What's Dester:
+    - index.md
+  - Getting Started:
     - Installation: getting-started/installation.md
+    - Prerequisites: getting-started\prerequisite-setup.md
+    - Local Deployment: getting-started\local-deployment.md
+    - Heroku Deployment: getting-started\heroku-deployment.md
+    - Desktop Application: getting-started\desktop-application.md
+  - Building:
+    - Frontend: building\frontend.md
+    - Backend: building\backend.md
+    - Desktop: building\desktop.md
+  - About:
+    - Privacy Policy: additional-info\privacy-policy.md
+    - T&C: additional-info\terms-and-conditions.md
+    - additional-info\main.md
 
 plugins:
   - git-revision-date-localized:
