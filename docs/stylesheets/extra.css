@@ -39,6 +39,22 @@
   height: auto;
 }
 
+.md-typeset .md-button {
+  border: 0px;
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--md-footer-bg-color);
+}
+
+.announcement-bar-custom {
+  color: #e6ecff !important;
+}
+
+.announcement-bar-custom:hover {
+  color: #ffffff !important;
+}
+
 .md-nav__item .md-nav__link--active {
   color: var(--md-accent-fg-color);
 }
@@ -59,4 +75,15 @@
 
 .md-footer {
   background-color: #0e1b26;
+}
+
+.md-typeset h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.md-typeset h2 {
+  margin: 0;
+  font-weight: 600;
 }
