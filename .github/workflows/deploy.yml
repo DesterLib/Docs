@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-literate-nav mkdocs-minify-plugin mkdocs-git-authors-plugin git-revision-date-localized pymdown-extensions pyparsing mkdocs-material-extensions mergedeep MarkupSafe Markdown Babel zipp
+      - run: pip install -r requirements.txt
       - run: mkdocs gh-deploy --force
