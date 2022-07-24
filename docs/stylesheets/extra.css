@@ -1,59 +1,124 @@
 :root {
+  /* Primary color shades */
+  --md-primary-fg-color: #0e1b26;
+  --md-primary-fg-color--light: #861f4194;
+  --md-primary-fg-color--dark: #ffffff;
+  --md-primary-bg-color: hsla(0, 0%, 100%, 1);
+  --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
+  --md-text-link-color: hsla(231, 48%, 48%, 1);
 
-    /* Primary color shades */
-    --md-primary-fg-color: #0e1b26;
-    --md-primary-fg-color--light: #861f4194;
-    --md-primary-fg-color--dark: #ffffff;
-    --md-primary-bg-color: hsla(0, 0%, 100%, 1);
-    --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.7);
-    --md-text-link-color: hsla(231, 48%, 48%, 1);
+  /* Accent color shades */
+  --md-accent-fg-color: #00ffb3;
+  --md-accent-fg-color-2: #ffffff;
+  --md-accent-fg-color--transparent: hsla(189, 100%, 37%, 0.1);
+  --md-accent-bg-color: rgb(0, 0, 0);
+  --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
+}
 
-    /* Accent color shades */
-    --md-accent-fg-color: #00ffb3;
-    --md-accent-fg-color-2: #ffffff;
-    --md-accent-fg-color--transparent: hsla(189, 100%, 37%, 0.1);
-    --md-accent-bg-color: rgb(0, 0, 0);
-    --md-accent-bg-color--light: hsla(0, 0%, 100%, 0.7);
-  }
-  
-  :root > * {
-  
-    --md-default-bg-color: #182532 !important;
+:root > * {
+  --md-default-bg-color: #182532 !important;
 
-    /* Code block color shades */
-    --md-code-bg-color: var(--md-primary-fg-color);
-    /* --md-code-fg-color: hsla(200, 18%, 26%, 1); */
+  /* Code block color shades */
+  --md-code-bg-color: var(--md-primary-fg-color);
+  /* --md-code-fg-color: hsla(200, 18%, 26%, 1); */
 
-    /* Footer */
-    --md-footer-bg-color: #335fcd;
-    --md-footer-bg-color--dark: hsl(0, 0%, 0%);
-    --md-footer-fg-color: rgb(255, 255, 255);
-    --md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7);
-    --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);
-  }
+  /* Footer */
+  --md-footer-bg-color: #335fcd;
+  --md-footer-bg-color--dark: hsl(0, 0%, 0%);
+  --md-footer-fg-color: rgb(255, 255, 255);
+  --md-footer-fg-color--light: hsla(0, 0%, 100%, 0.7);
+  --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);
+}
 
 .md-header__topic {
-    display: none;
+  display: none;
 }
 
 .md-header__button.md-logo {
-    width: 120px;
-    height: auto
+  width: 120px;
+  height: auto;
 }
 
 .md-nav__item .md-nav__link--active {
-    color: var(--md-accent-fg-color);
+  color: var(--md-accent-fg-color);
 }
 
-.md-header__button.md-logo :is(img,svg) {
-    width: 100% !important;
-    height: 100% !important;
+.md-header__button.md-logo :is(img, svg) {
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.md-typeset a:focus, .md-typeset a:hover {
-    color: var(--md-accent-fg-color-2);
+.md-typeset a {
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset a:focus,
+.md-typeset a:hover {
+  color: var(--md-accent-fg-color-2);
 }
 
 .md-footer {
-    background-color: #0e1b26;
+  background-color: #0e1b26;
+}
+
+/* Additional STyles for landingpage */
+
+/* Application header should be static for the landing page */
+.md-header {
+  position: initial;
+}
+
+/* Remove spacing, as we cannot hide it completely */
+.md-main__inner {
+  margin: 0;
+}
+
+/* Hide main content for now */
+.md-content {
+  display: none;
+}
+
+.mdx-hero {
+  position: relative;
+  min-height: 600px;
+}
+
+.mdx-hero__image {
+    height: 100%;
+}
+
+.mdx-hero__content {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 50px;
+}
+
+.mdx-hero__content h1 {
+  font-weight: 500;
+  font-size: 3rem;
+  margin: 0px;
+}
+
+.md-typeset .md-button {
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.md-typeset .md-button:hover {
+  color: #000000;
+}
+
+/* Hide table of contents */
+@media screen and (min-width: 60em) {
+  .md-sidebar--secondary {
+    display: none;
+  }
+}
+
+/* Hide navigation */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
 }
