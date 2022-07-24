@@ -1,8 +1,10 @@
-site_name: Dester Docs
+site_name: Docs
+site_description: Deploy your Dester instance and easily organize your media library
 theme:
   name: material
   custom_dir: overrides
   logo: assets/images/logo/logo-dark-full.svg
+  favicon: assets/images/logo/favicon.png
   features:
     - navigation.instant
     - announce.dismiss
